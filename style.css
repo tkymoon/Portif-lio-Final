@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+:root {
+    --cor-principal: #616161;
+    --cor-secundaria: #ffffff;
+    --cor-destaque: #6d94b4;
+}
+
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font: #ffff ;
+    background-color: #0b0d0f;
+}
+
+h1, h2, h5 {
+    color: var(--cor-secundaria);
+    font-weight: 700;
+}
+
+footer a {
+    color: rgb(255, 255, 255);
+}
+
+footer a:hover {
+    color: var(--cor-destaque);
+}
+
+.card {
+
+    background-color: #1d2227;
+    color: #1d2227;
+}
+
+.card-title {
+
+    color: white;
+}
+
+.card-body {
+
+    background-color: #1d2227;
+    color: #6d94b4;
+}
+
+.div.card {
+
+    background-color: #0b0d0f;
+}
+
+
+
+p {
+
+    color: #868686;
+}
+
+p.badge.bg-secondary {
+
+color: #000000;
+
+}
+
+a {
+
+    color: #0b0d0f;
+}
+
+.avatar-da-Maria {
+
+    background-size: cover;
+}
+
+.modal-body {
+
+    background-color: #1d2227;
+    color: white;
+}
+
+.modal-header {
+
+    background-color: #6d94b4;
+}
+
+.modal-footer {
+
+    background-color: #6d94b4;
+}
+
+.modal-title {
+
+    color: #000000;
+}
+
+button .btn-btn-link {
+
+    color: white;
+    
+
+}
+
+.lead .btn-link {
+
+    color: white;
+  
+}
+
+
+.lead, .btn-link {
+    color: rgb(255, 255, 255);
+  
+    font-weight: 700;
+}
+
+footer a, .btn-link:hover {
+    color: rgb(255, 255, 255)
+}
+
+a, .btn-link:hover {
+    color: rgb(0, 0, 0)
+}
+
+a:hover{
+    color: rgb(255, 255, 255)
+}
+
+.btn-outline-danger {
+    --bs-btn-color: #ffffff;
+    --bs-btn-border-color: #ffffff;
+    --bs-btn-hover-color: #ffffff;
+    --bs-btn-hover-bg: #fff;
+    --bs-btn-hover-border-color: #ffffff;
+    --bs-btn-focus-shadow-rgb: 220, 53, 69;
+    --bs-btn-active-color: #fff;
+    --bs-btn-active-bg: #ffffff;
+    --bs-btn-active-border-color: #ffffff;
+    --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+    --bs-btn-disabled-color: transparent;
+    --bs-btn-disabled-bg: transparent;
+    --bs-btn-disabled-border-color: #ffffff;
+    --bs-gradient: none;
+}
+
+.bi {
+    display: inline-block;
+    vertical-align: -.125em;
+    fill: white;
+}
